@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Work+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@600&display=swap');
+
+
+body {
+    color: #055d56;
+}
+
+.nav-item {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    padding-right: 0px;
+    padding-left: 100px;
+}
+
+.nav-link {
+    color: #055d56;
+    -webkit-transition: font-size .5s ease;
+    -moz-transition: font-size .5s ease;
+    -o-transition: font-size .5s ease;
+    transition: font-size .5s ease;
+}
+
+.nav-link:hover {
+    font-size: 22px;
+    color: #D9DBF1;
+}
+
+.inthead {
+    text-align: center;
+    padding: 70px 0px;
+    font-family: 'Martian Mono', monospace;
+    background-color:#F4ECD6;
+}
+
+.segm{
+    padding: 0px;
+}
+.r1{
+    padding-left: 40px;
+    background-color:#D9DBF1;
+    padding-bottom: 11px;
+}
+
+.r2{
+    padding-left: 40px;
+    background-color: #EEB4B3;
+    padding-bottom: 11px;
+}
+
+.col11{
+    text-align: center;
+    padding: 70px 0px;
+}
+
+.col12{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.inp{
+    border-radius: 10px;
+    border-style: none;
+    background-color: transparent;
+}
+
+.but{
+    text-align: center;
+}
+
+.btn{
+    background-color: #D9DBF1;
+    color:#055d56;
+    border-color: #055d56;
+}
+
+.btn:hover{
+    color:#D9DBF1;
+    background-color: #055d56;
+    border-color: #055d56;
+}
+
+.h{
+    background-color:#F4ECD6;
+}
+hr{
+    margin: 0.5px;
+}
+
+.foot{
+    margin: 0;
+}

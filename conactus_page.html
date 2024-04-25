@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<!-- googlefonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+
+
+<!-- bootstrap cdn -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+crossorigin="anonymous"></script>
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+<!-- CSS LINK -->
+<link rel="stylesheet" href="contactus.css">
+
+<!-- font awesome -->
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #24bcaf;">
+    <div class="container-fluid">
+      <img src="final_logo.png" alt="Brand logo" height="100px" width="150px">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="homepage.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quiz_page.html">Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="studymaterial.html">Study Material</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="internshipguide.html">Internship Guide</a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link" href="conactus_page.html">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-duotone fa-user fa-flip"></i>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a class="dropdown-item" href="#">Account</a></li>
+              <li><a class="dropdown-item" href="#">Sign Out</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+
+
+  <center>
+
+    <div class="Contact">
+      <br />
+      <form action="conactus_page.html">
+
+        <div class="heading"> Contact Us </div> <br />
+        <div class=detail>Enter your Details and Query here and we will get back to you shortly:</div><br>
+
+
+        <!--Name-->
+        <div class="box">
+          <label for="name" class="fl fontLabel"> Name: </label>
+          <div class="fl iconBox">
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </div>
+          <div class="fr">
+            <input type="text" required name="name" maxlength="12" placeholder="Name" class="textBox">
+          </div>
+          <div class="clr"></div>
+        </div>
+        <!--Name-->
+
+        <!---Email------>
+        <div class="box">
+          <label for="email" class="fl fontLabel"> Email: </label>
+          <div class="fl iconBox">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          </div>
+          <div class="fr">
+            <input type="email" required name="email" placeholder="Email" class="textBox">
+          </div>
+          <div class="clr"></div>
+        </div>
+        <!---Email---->
+
+        <!---Query------>
+        <div class="box">
+          <label for="qiery" class="fl fontLabel"> Query: </label>
+          <div class="fl iconBox">
+            <i class="fa fa-comments-o" aria-hidden="true"></i>
+          </div>
+          <div class="fr">
+            <input type="query" required name="query" placeholder="Query" class="textBox">
+          </div>
+          <div class="clr"></div>
+        </div>
+        <!---Query---->
+
+
+        <!--  <input type = "submit" name = "submit" value = "LOGIN"/> -->
+        </br>
+        <button class="submit"> submit </button><br /> <br />
+
+      </form>
+      <br />
+    </div>
+
+    </div>
+
+    </div>
+
+
+
+  </center>
+</body>
+
+</html>

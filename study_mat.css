@@ -1,0 +1,53 @@
+.semlist {
+  margin-top: 50px;
+  float: left;
+  height: relative;
+  width: 40%;
+}
+.leftside{
+  float: left;
+  width: 30%;
+}
+.list_element {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(24, 182, 79);
+  margin: 5px;
+  text-align: center;
+  font-size: 20px;
+  height: relative;
+}
+.rightside{
+  
+  width: 70%;
+}
+.list_element:hover {
+  width: 100%;
+}
+
+.upload_part {
+  width: 75%;
+  float: right;
+  padding-left: 20%;
+  margin-left: 10%;
+}
+
+/* Navbar */
+.nav-item{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  padding-right: 0px;
+  padding-left: 100px;
+}
+.nav-link{
+  color: #055d56;
+  -webkit-transition: font-size .5s ease;
+-moz-transition: font-size .5s ease;
+-o-transition: font-size .5s ease;
+transition: font-size .5s ease;
+}
+.nav-link:hover{
+  font-size: 22px;
+  color:#D9DBF1;
+}
+/* Navbar */

@@ -1,0 +1,86 @@
+body{
+    background: url(img2.jpg)no-repeat center fixed;
+    background-size: cover;
+}
+.login{
+    border-radius: 1rem;
+    margin: 100px;
+    margin-top: 150px;
+    background-color: #2d3e3f;
+    width: 600px;
+    box-sizing: border-box;
+    padding: 40px;
+    box-shadow: 0 0 1rem;
+    opacity: 0.9;
+}
+.heading{
+    font-family: "Calisto MT";
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+
+}
+.data{
+    font-family: verdana;
+    font-size: large;
+    color: white;
+}
+.submit{
+    text-decoration: none;
+    color: black;
+    padding-top: 15px;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+    font-size: 18px;
+    background: #24bcaf;
+}
+.submit:hover{
+    background: rgb(43, 49, 237);
+    border: none;   
+    color: white; 
+}
+.forgot{
+    text-decoration: none;
+    color:white;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.box{
+	width: 360px;
+	height: 50px;
+	margin-top: 0px;
+	font-family: verdana;
+	font-size: 12px;
+	
+}
+.fl{
+	float: left;
+  	width: 110px;
+  	line-height: 35px;
+}
+
+.fontLabel{
+  	color: white;
+}
+.iconBox{
+	height: 35px;
+	width: 40px;
+	line-height: 38px;
+	text-align: center;
+  	background: #24bcaf;
+}
+.fr{
+	float: right;
+	
+}
+.textBox{
+	height: 32px;
+	width: 180px;
+	border: none;
+  	padding-left: 20px;
+}
+.clr{
+	clear: both;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "login1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <center>
+        <div class = "login">
+            <br/>
+            <form action = "checking_info.php" method = "POST">
+                <div class = "heading"> Study-Gram </div> <br/><br/>
+
+                <!--Enrollment-->
+    		    <div class="box">
+                    <label for="enrollment" class="fl fontLabel"> Enrollment: </label>
+                    <div class="fl iconBox">
+                        <i class="fa fa-drivers-license-o" aria-hidden="true"></i></div>
+                    <div class="fr">
+                        <input type="text" required name="enroll" maxlength="12" placeholder="Enrollment Number" class="textBox">
+                    </div>
+                    <div class="clr"></div>
+                </div>
+                <!--Enrollment-->
+
+                <!---Password------>
+    		    <div class="box">
+                    <label for="password" class="fl fontLabel"> Password: </label>
+                    <div class="fl iconBox">
+                        <i class="fa fa-key" aria-hidden="true"></i></div>
+                    <div class="fr">
+                        <input type="Password" required name="pass" placeholder="Password" class="textBox">
+                    </div>
+                    <div class="clr"></div>
+                </div>
+                <!---Password---->
+
+                <!--  <input type = "submit" name = "submit" value = "LOGIN"/> -->
+            </br>
+                <button class = "submit"> LOGIN </button><br/> <br/>
+                <a href = "registration_page.html" class="forgot"> Register Here! </a> 
+                <a href = "forgot.html" class = "forgot" >   Forgot Password?</a>
+            </form>
+            <br/>
+        </div>
+        </center>
+    </body>
+</html>

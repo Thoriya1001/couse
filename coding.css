@@ -1,0 +1,45 @@
+p{
+    font-family: "Calisto MT";
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.forgot{
+    text-decoration: none;
+    color: black;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+    font-size: 18px;
+    background: #24bcaf;
+}
+.forgot:hover{
+    background: #055d56;
+    border: none;   
+    color: black; 
+}
+.right{
+    float:right;
+    margin-right:33% ;
+}
+.left{
+    float:left;
+    margin-left:15% ;
+}
+.nav-item{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    padding-right: 0px;
+    padding-left: 75px;
+}
+.nav-link{
+    color: #055d56;
+    -webkit-transition: font-size .5s ease;
+  -moz-transition: font-size .5s ease;
+  -o-transition: font-size .5s ease;
+  transition: font-size .5s ease;
+}
+.nav-link:hover{
+    font-size: 22px;
+    color:#D9DBF1;
+}   

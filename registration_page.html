@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Registration - Studygram </title>
+        <link rel="stylesheet" href="registration1.css">
+    </head>
+    <body>
+        <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- Body of Form starts -->
+  	<div class="container">
+      <form action="registration_form.php" method="POST" autocomplete="on">
+        <!--First name-->
+    		<div class="box">
+          		<label for="firstName" class="fl fontLabel"> Full Name: </label>
+    			<div class="new iconBox">
+            		<i class="fa fa-user" aria-hidden="true"></i>
+          		</div>
+    			<div class="fr">
+    				<input type="text" name="name" placeholder="Full Name" class="textBox" autofocus="on" required>
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!--First name-->
+
+
+        <!--Enrollment-->
+    		<div class="box">
+          		<label for="enrollment" class="fl fontLabel"> Enrollment: </label>
+    			<div class="fl iconBox">
+					<i class="fa fa-drivers-license-o" aria-hidden="true"></i></div>
+    			<div class="fr">
+    				<input type="text" required name="enroll" maxlength="12" placeholder="Enrollment Number" class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!--Enrollment-->
+
+
+    		<!---Phone No.------>
+    		<div class="box">
+          		<label for="phone" class="fl fontLabel"> Phone No.: </label>
+    			<div class="fl iconBox">
+					<i class="fa fa-phone-square" aria-hidden="true"></i></div>
+    			<div class="fr">
+    				<input type="text" required name="phone" maxlength="10" placeholder="Phone No." class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!---Phone No.---->
+
+
+    		<!---Email ID---->
+    		<div class="box">
+          		<label for="email" class="fl fontLabel"> Email ID: </label>
+    			<div class="fl iconBox">
+					<i class="fa fa-envelope" aria-hidden="true"></i></div>
+    			<div class="fr">
+    				<input type="email" required name="email" placeholder="Email Id" class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!--Email ID----->
+
+
+    		<!---Password------>
+    		<div class="box">
+          		<label for="pass" class="fl fontLabel"> Password: </label>
+    			<div class="fl iconBox">
+					<i class="fa fa-key" aria-hidden="true"></i></div>
+    			<div class="fr">
+    				<input type="Password" required name="pass" placeholder="Password" class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!---Password---->
+
+			<!---Confirm Password------>
+    		<div class="box">
+				<label for="pass" class="fl fontLabel"> Confirm Pass: </label>
+				<div class="fl iconBox">
+					<i class="fa fa-key" aria-hidden="true"></i></div>
+				<div class="fr">
+					<input type="Password" required name="confirmpass" placeholder="Confirm Password" class="textBox">
+				</div>
+				<div class="clr"></div>
+			</div>
+				  <!---Confirm Password---->
+
+    		<!---Gender----->
+    		<div class="box radio">
+          		<label for="gender" class="fl fontLabel"> Gender: </label>
+    			<input type="radio" name="gender" value="Male" required> Male &nbsp; &nbsp; &nbsp; &nbsp;
+    			<input type="radio" name="gender" value="Female" required> Female
+    		</div>
+    		<!---Gender--->
+
+            <!-- Semester -->
+            
+			<div class = "box">
+				<label for="Semester" class="fl fontLabel"> Semester: </label>
+				<div class = "semester">
+  					<select class="semlist" name="semester">
+    					<option value="sem1">SEM 1</option>
+    					<option value="sem2">SEM 2</option>
+    					<option value="sem3">SEM 3</option>
+    					<option value="sem4">SEM 4</option>
+						<option value="sem5">SEM 5</option>
+						<option value="sem6">SEM 6</option>
+						<option value="sem7">SEM 7</option>
+						<option value="sem8">SEM 8</option>
+  					</select>
+				</div>
+				<div class="clr"></div>
+			</div>
+			
+            <!-- Semester -->
+
+
+    		<!---Submit Button------>
+    		<div class="box" style="background: #2d3e3f">
+    			<input type="Submit" name="user" class="submit" value="SUBMIT">
+    		</div>
+    		<!---Submit Button----->
+      </form>
+  </div>
+  <!--Body of Form ends--->
+  </body>
+</html>

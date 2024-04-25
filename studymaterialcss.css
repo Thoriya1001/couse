@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Work+Sans:wght@600&display=swap');
+
+
+body{
+  color: #055d56;
+}
+.nav-item{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  padding-right: 0px;
+  padding-left: 100px;
+}
+.nav-link{
+  color: #055d56;
+  -webkit-transition: font-size .5s ease;
+-moz-transition: font-size .5s ease;
+-o-transition: font-size .5s ease;
+transition: font-size .5s ease;
+}
+.nav-link:hover{
+  font-size: 22px;
+  color:#D9DBF1;
+}
+
+
+.retri{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+.uplo{
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.uplo2{
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 200px;
+  font-size: large;
+}
+
+.semlis {
+  line-height: 50px;
+}
+
+.fetchbut{
+  font-size: 17px;
+  margin-left: 10px;
+  border-style: none;
+  background-color: #24bcaf;
+}
+
+.fetchbut:hover{
+  color: #D9DBF1;
+}
+
+table tr td{
+  padding-top: 30px;
+}
+
+button{
+  border-style: none;
+  border-radius: 10px;
+  color: #055d56;
+  -webkit-transition: font-size .5s ease;
+  -moz-transition: font-size .5s ease;
+-o-transition: font-size .5s ease;
+  transition: font-size .5s ease;
+}
+
+button:hover{
+  font-size: 20px;
+  background-color: #D9DBF1;
+}
+
+.list_head{
+  color: #055d56;
+  border-style: solid;
+}
+
+#uploenro{
+  color: #055d56;
+  border-style: solid;
+}
+
+#uplosubmit{
+  font-size: 20px;
+  border-style: none;
+  background-color: #24bcaf;
+}
+
+#uplosubmit:hover{
+  color: #D9DBF1;
+}
